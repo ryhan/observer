@@ -1,11 +1,17 @@
 observer
 ========
 
-Keeps an eye out for new tweets. Made by [Ryhan Hassan](https://github.com/ryhan 'Ryhan Hassan')
+Keeps an eye out for new tweets. Made by [Ryhan Hassan](https://github.com/ryhan 'Ryhan Hassan').
+
+## What is this I don't even
+
+Instead of pulling tweets from the twitter api yourself, be lazy and use this little tool to watch for tweets containing some term. There are better ways to do this, but hey, yolo.
+
+All you need to do is set a query and a callback. Every time new tweets pop up related to the query, observer will pass an array of tweets back to your callback.
 
 ## Instructions
 
-Once you've included `twitter_observer.js` and jQuery/Zepto, here's how to use observer.
+Once you've included `twitter_observer.js`, Underscore, and jQuery/Zepto, here's how to use observer.
 
 ```javascript
 // Set what terms we want to check for, and a callback that handles new tweets.
