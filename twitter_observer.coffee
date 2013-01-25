@@ -13,7 +13,7 @@ class @TwitterObserver
     query = q
     callback = cb
 
-  observe: (interval = 5000) -> 
+  watch: (interval = 5000) -> 
     @update()
     setInterval(@update, interval)
 
